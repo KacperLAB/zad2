@@ -10,6 +10,7 @@ https://docs.github.com/en/actions/publishing-packages/publishing-docker-images#
 - Budowanie : **docker build -t test_zad2 .**
 - Uruchamianie : **docker run -d -p 80:80 --name zad2 test_zad2**
 - Test CVE : **docker scout cves test_zad2**
+- Uruchomienie workflow : **gh workflow list** -> **gh workflow run 59821011**
 - Pobranie utworzonego pakietu (obrazu) : **docker pull ghcr.io/kacperlab/zad2:main**
 - Uruchomienie pobranego obrazu : **docker run -d -p 80:80 --name test ghcr.io/kacperlab/zad2:main**
 
